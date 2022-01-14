@@ -1,0 +1,69 @@
+*{
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+}
+.html-rainbow-text span {
+	display: inline-block;
+	font-family: 'Architects Daughter', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: #516685 6px 1px 10px;
+	-webkit-text-stroke: 1.1px #000000;
+}
+.aligncenter {
+    text-align: center;
+    
+}
+.animated_rainbow_2 {
+    font-size: 20px;
+	font-family: 'Architects Daughter', cursive;
+    -webkit-animation: animatedBackground_b 5s linear infinite alternate;
+}
+
+@keyframes animatedBackground_b{
+
+    50% {color: black}
+    100% {color: #ff0000}
+}
+body{
+	color: #dad3db;
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+.par
+{
+    text-align: center;
+    font-size: 25px;
+}
+.lpar{
+    text-align: left;
+    font-size: 25px;
+}
+.rpar{
+    text-align: right;
+    font-size: 25px;
+}
+.box{
+	width: 900px;
+	background: rgba(0, 0, 0, 0.411);
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 2%;
+	color: #dad3db;
+	border-radius: 10%;
+}
+.box-img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
