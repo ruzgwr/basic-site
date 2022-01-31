@@ -2,11 +2,11 @@
 	padding: 2px;
 	margin: 2px;
 	text-align: center;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Lucida Console', cursive;
 }
 .html-rainbow-text span {
 	display: inline-block;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Lucida Console', cursive;
 	font-weight: bold;
 	font-size: 20px;
 	text-shadow: #516685 6px 1px 10px;
@@ -18,7 +18,7 @@
 }
 .animated_rainbow_2 {
     font-size: 20px;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Lucida Console', cursive;
     -webkit-animation: animatedBackground_b 5s linear infinite alternate;
 }
 
